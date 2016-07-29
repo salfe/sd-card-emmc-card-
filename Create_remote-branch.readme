@@ -1,0 +1,8 @@
+1.在当前版本下面创建一个local working branch，并切换到该local branch
+    git checkout -b <branch name>
+
+2.将该local working branch推送到远端repo
+    git push origin <branch name>
+    
+3.将local working branch和remote working branch进行关联
+    git branch --set-upstream-to=origin/<branch name>
